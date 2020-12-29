@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test Login(failed)">
+    <classes>
+      <class name="com.testvagrant.testcases.NdtvTest">
+        <methods>
+          <include name="setupSuite"/>
+          <include name="tearDown"/>
+          <include name="verifyCityTemperature" invocation-numbers="0"/>
+          <include name="initialize"/>
+          <include name="getResult"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.testvagrant.testcases.NdtvTest -->
+    </classes>
+  </test> <!-- Test Login(failed) -->
+</suite> <!-- Failed suite [Suite] -->

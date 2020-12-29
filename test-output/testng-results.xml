@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="55559" started-at="2020-12-28T17:06:52Z" finished-at="2020-12-28T17:07:47Z">
+    <groups>
+    </groups>
+    <test name="Test Login" duration-ms="55559" started-at="2020-12-28T17:06:52Z" finished-at="2020-12-28T17:07:47Z">
+      <class name="com.testvagrant.testcases.NdtvTest">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.testvagrant.testcases.NdtvTest@4b952a2d]" name="setupSuite" is-config="true" duration-ms="222" started-at="2020-12-28T22:36:51Z" finished-at="2020-12-28T22:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="initialize(java.lang.reflect.Method)[pri:0, instance:com.testvagrant.testcases.NdtvTest@4b952a2d]" name="initialize" is-config="true" duration-ms="25072" started-at="2020-12-28T22:36:52Z" finished-at="2020-12-28T22:37:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[void com.testvagrant.testcases.NdtvTest.verifyCityTemperature(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.testvagrant.testcases.NdtvTest@4b952a2d]" name="beforeTest" is-config="true" duration-ms="41" started-at="2020-12-28T22:37:17Z" finished-at="2020-12-28T22:37:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="verifyCityTemperature(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testvagrant.testcases.NdtvTest@4b952a2d]" name="verifyCityTemperature" duration-ms="25333" started-at="2020-12-28T22:37:17Z" data-provider="ExcelDataProvider" finished-at="2020-12-28T22:37:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Weather]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bengaluru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[apiURL]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[imperial]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.testvagrant.testcases.NdtvTest.verifyCityTemperature(NdtvTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCityTemperature -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testvagrant.testcases.NdtvTest@4b952a2d]" name="getResult" is-config="true" duration-ms="4554" started-at="2020-12-28T22:37:43Z" finished-at="2020-12-28T22:37:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCityTemperature status=FAILURE method=NdtvTest.verifyCityTemperature(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testvagrant.testcases.NdtvTest@4b952a2d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testvagrant.testcases.NdtvTest@4b952a2d]" name="tearDown" is-config="true" duration-ms="324" started-at="2020-12-28T22:37:47Z" finished-at="2020-12-28T22:37:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testvagrant.testcases.NdtvTest -->
+    </test> <!-- Test Login -->
+  </suite> <!-- Suite -->
+</testng-results>

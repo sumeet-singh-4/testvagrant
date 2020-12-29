@@ -1,0 +1,11 @@
+com\testvagrant\utilities\PropertyReader.class
+com\testvagrant\helper\ApiHelper.class
+com\testvagrant\testCaseBase\TestCaseBase.class
+com\testvagrant\pageObject\NdtvHomePage.class
+com\testvagrant\genericLibrary\GenericMethods.class
+com\testvagrant\helper\Helper.class
+com\testvagrant\pageObject\controller\verifyMoviesNames\VerifyCityTemperature_Manager.class
+com\testvagrant\exceptions\TemperatureMaxOut.class
+com\testvagrant\utilities\ExcelReader.class
+com\testvagrant\utilities\ReportLogger.class
+com\testvagrant\helper\TestDataHelper.class
